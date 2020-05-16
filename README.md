@@ -1,13 +1,13 @@
 Download mod - https://www.curseforge.com/minecraft/mc-mods/cyancraft
 
-CyanOre: a very rare ore
-Cyan: just another one material
-CyanBlock: a block for the decoration and for some crafts
-CyanSword/CyanHoe/CyanShovel/CyanAxe/CyanPickaxe/CyanMultitool: just imbalanced strong tools
-CyanArmor: new armor
-CyanStairs: more decor items!
-CyanStick: more mateterials!
-CyanChest: a very big chest
+CyanOre: a very rare ore <br>
+Cyan: just another one material<br>
+CyanBlock: a block for the decoration and for some crafts<br>
+CyanSword/CyanHoe/CyanShovel/CyanAxe/CyanPickaxe/CyanMultitool: just imbalanced strong tools<br>
+CyanArmor: new armor<br>
+CyanStairs: more decor items!<br>
+CyanStick: more mateterials!<br>
+CyanChest: a very big chest<br>
 CyanDecraftingTable: the single interesting think in that mod. It can take items to pieces and work some buggy.
 
 ToDo:
