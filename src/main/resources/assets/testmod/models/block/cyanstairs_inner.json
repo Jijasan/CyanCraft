@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "testmod:blocks/cyan_block1",
+    "top": "testmod:blocks/cyan_block1",
+    "side": "testmod:blocks/cyan_block1"
+  }
+}

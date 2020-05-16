@@ -1,0 +1,60 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 300,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "name": "Slot #1",
+          "x": 516,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Diffichento",
+          "onClick": {
+            "name": "Jij"
+          },
+          "width": 40,
+          "height": 40,
+          "name": "Diffichento",
+          "x": 408,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Casino",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Casino",
+          "x": 264,
+          "y": 78
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testmod:blocks/cyan_block1",
+    "up": "testmod:blocks/cyan_block1",
+    "north": "testmod:blocks/cyan_block1",
+    "east": "testmod:blocks/cyan_block1",
+    "south": "testmod:blocks/cyan_block1",
+    "west": "testmod:blocks/cyan_block1",
+    "particle": "testmod:blocks/cyan_block1"
+  }
+}

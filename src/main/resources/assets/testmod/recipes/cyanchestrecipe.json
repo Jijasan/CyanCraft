@@ -1,0 +1,39 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:cyanblock"
+    },
+    "1": {
+      "item": "testmod:cyanblock"
+    },
+    "2": {
+      "item": "testmod:cyanblock"
+    },
+    "3": {
+      "item": "testmod:cyanblock"
+    },
+    "5": {
+      "item": "testmod:cyanblock"
+    },
+    "6": {
+      "item": "testmod:cyanblock"
+    },
+    "7": {
+      "item": "testmod:cyanblock"
+    },
+    "8": {
+      "item": "testmod:cyanblock"
+    }
+  },
+  "result": {
+    "item": "testmod:cyanchest",
+    "count": 1
+  }
+}

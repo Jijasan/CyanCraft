@@ -1,0 +1,36 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:cyan"
+    },
+    "1": {
+      "item": "testmod:cyan"
+    },
+    "2": {
+      "item": "testmod:cyan"
+    },
+    "3": {
+      "item": "testmod:cyan"
+    },
+    "5": {
+      "item": "testmod:cyan"
+    },
+    "6": {
+      "item": "testmod:cyan"
+    },
+    "8": {
+      "item": "testmod:cyan"
+    }
+  },
+  "result": {
+    "item": "testmod:cyanarmorlegs",
+    "count": 1
+  }
+}

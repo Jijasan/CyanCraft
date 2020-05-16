@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testmod:blocks/cyan_decrating_table",
+    "up": "testmod:blocks/cyan_decrating_table",
+    "north": "testmod:blocks/cyan_decrafting_table1",
+    "east": "testmod:blocks/cyan_decrafting_table1",
+    "south": "testmod:blocks/cyan_decrafting_table1",
+    "west": "testmod:blocks/cyan_decrafting_table1",
+    "particle": "testmod:blocks/cyan_decrating_table"
+  }
+}

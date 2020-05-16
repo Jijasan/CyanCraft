@@ -1,0 +1,51 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "cyan_helmet",
+    "enableBody": true,
+    "textureBody": "cyan_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "cyan_leggings",
+    "enableBoots": true,
+    "textureBoots": "cyan_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "cyan_",
+    "helmetName": "Cyan Armor Helmet",
+    "bodyName": "Cyan Armor Body",
+    "leggingsName": "Cyan Armor Leggings",
+    "bootsName": "Cyan Armor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 228,
+    "damageValueHelmet": 228,
+    "damageValueBody": 228,
+    "damageValueLeggings": 228,
+    "damageValueBoots": 228,
+    "enchantability": 9,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": "block.slime.hit"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Cyan"
+      }
+    ]
+  }
+}

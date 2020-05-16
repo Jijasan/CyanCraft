@@ -1,0 +1,24 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:cyan"
+    },
+    "1": {
+      "item": "testmod:cyan"
+    },
+    "2": {
+      "item": "testmod:cyanstick"
+    }
+  },
+  "result": {
+    "item": "testmod:cyansword",
+    "count": 1
+  }
+}

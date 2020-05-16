@@ -1,0 +1,22 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testmod:cyanshovel"
+    },
+    {
+      "item": "testmod:cyanhoe"
+    },
+    {
+      "item": "testmod:cyanaxe"
+    },
+    {
+      "item": "testmod:cyanpickaxe"
+    }
+  ],
+  "result": {
+    "item": "testmod:cyanmultitool",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testmod:cyanblock"
+    }
+  ],
+  "result": {
+    "item": "testmod:cyan",
+    "count": 9
+  }
+}

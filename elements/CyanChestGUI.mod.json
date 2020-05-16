@@ -1,0 +1,151 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Cyan chest",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Cyan chest",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "0",
+          "onClick": {
+            "name": "OpenGUI0"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "0",
+          "x": 264,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "1",
+          "onClick": {
+            "name": "OpenGUI1"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "1",
+          "x": 300,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "2",
+          "onClick": {
+            "name": "OpenGUI2"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "2",
+          "x": 336,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "3",
+          "onClick": {
+            "name": "OpenGUI3"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "3",
+          "x": 372,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "4",
+          "onClick": {
+            "name": "OpenGUI4"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "4",
+          "x": 408,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "5",
+          "onClick": {
+            "name": "OpenGUI5"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "5",
+          "x": 444,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "6",
+          "onClick": {
+            "name": "OpenGUI6"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "6",
+          "x": 480,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "7",
+          "onClick": {
+            "name": "OpenGUI7"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "7",
+          "x": 516,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "8",
+          "onClick": {
+            "name": "OpenGUI8"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "8",
+          "x": 552,
+          "y": 132
+        }
+      }
+    ]
+  }
+}

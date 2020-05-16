@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "cyan_shears",
+    "customModelName": "Normal",
+    "name": "Cyan Shears",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Shears",
+    "harvestLevel": 4,
+    "efficiency": 228.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}
