@@ -14,9 +14,6 @@
             "value": ""
           },
           "id": 0,
-          "onTakenFromSlot": {
-            "name": "Decrafting"
-          },
           "name": "Slot #0",
           "x": 300,
           "y": 132
@@ -110,6 +107,20 @@
           "name": "lumafly_lantern.png",
           "x": 354,
           "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Decraft",
+          "onClick": {
+            "name": "Decrafting"
+          },
+          "width": 140,
+          "height": 40,
+          "name": "Decraft",
+          "x": 354,
+          "y": 204
         }
       }
     ]

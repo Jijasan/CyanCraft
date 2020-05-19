@@ -64,6 +64,22 @@ public class ProcedureDecrafting extends ElementsTestMod.ModElement {
 								ItemStack[] is1 = ing.getMatchingStacks();
 								if(is1.length>0){
 									ItemStack _setstack = is1[0];
+									_setstack.setCount(((new Object() {
+										public int getAmount(int sltid) {
+											if (entity instanceof EntityPlayerMP) {
+												Container _current = ((EntityPlayerMP) entity).openContainer;
+												if (_current instanceof Supplier) {
+													Object invobj = ((Supplier) _current).get();
+													if (invobj instanceof Map) {
+														ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+														if (stack != null)
+															return stack.getCount();
+													}
+												}
+											}
+											return 0;
+										}
+									}.getAmount((int) (j+1))) + 1));
 									((Slot) ((Map) invobj).get((int) (j+1))).putStack(_setstack);
 									_current.detectAndSendChanges();
 								}
@@ -76,11 +92,12 @@ public class ProcedureDecrafting extends ElementsTestMod.ModElement {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (0))).putStack(ItemStack.EMPTY);
+							((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (1));
 							_current.detectAndSendChanges();
 						}
 					}
 				}
+				break;
 			}
 		}
 		return;
