@@ -64,6 +64,11 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
 			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 26, 30) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(0, 0, 0);
+				}
 			}));
 			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 116, 12) {
 				@Override
@@ -339,7 +344,6 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 52, this.guiTop + 65, 70, 20, "Decraft"));
 		}
 
 		@Override
@@ -454,13 +458,6 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureDecrafting.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {
@@ -468,5 +465,12 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureDecrafting.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

@@ -16,14 +16,18 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.testmod.procedure.ProcedureDecrafting;
 import net.mcreator.testmod.gui.GuiCyanDecraftingTableGUI;
 import net.mcreator.testmod.TestMod;
 import net.mcreator.testmod.ElementsTestMod;
+
+import java.util.Random;
 
 @ElementsTestMod.ModElement.Tag
 public class BlockCyanDecraftingTable extends ElementsTestMod.ModElement {
@@ -55,6 +59,21 @@ public class BlockCyanDecraftingTable extends ElementsTestMod.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public void randomDisplayTick(IBlockState state, World world, BlockPos pos, Random random) {
+			super.randomDisplayTick(state, world, pos, random);
+			EntityPlayer entity = Minecraft.getMinecraft().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureDecrafting.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

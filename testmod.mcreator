@@ -1,6 +1,7 @@
 {
   "id_map": {
-    "GUI": 14
+    "GUI": 14,
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -816,6 +817,67 @@
           }
         ]
       }
+    },
+    {
+      "name": "ToxicCarp",
+      "type": "mob",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "MeltCyanBoots",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeltCyanLeggings",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeltCyanChestplate",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeltCyanHelmet",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeltCyanOre",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyanBow",
+      "type": "gun",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
     }
   ],
   "variable_elements": [],
@@ -829,6 +891,8 @@
       "tile.cyanchest.name": "Циановый сундук",
       "item.cyanshovel.name": "Циановая лопата",
       "item.cyanarmorboots.name": "Циановые ботинки",
+      "item.cyanbow.name": "Cyan Bow",
+      "entity.toxiccarp.name": "Toxic Carp",
       "item.cyan.name": "Циан",
       "item.cyanshears.name": "Циановые ножницы",
       "item.cyanpickaxe.name": "Циановая кирка",
@@ -851,6 +915,8 @@
       "tile.cyanchest.name": "Cyan Chest",
       "item.cyanshovel.name": "Cyan Shovel",
       "item.cyanarmorboots.name": "Cyan Boots",
+      "item.cyanbow.name": "Cyan Bow",
+      "entity.toxiccarp.name": "Toxic Carp",
       "item.cyan.name": "Cyan",
       "item.cyanshears.name": "Cyan Shears",
       "item.cyanpickaxe.name": "Cyan Pickaxe",
