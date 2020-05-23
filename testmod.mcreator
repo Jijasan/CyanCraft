@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 14,
-    "ENTITY": 3
+    "ENTITY": 3,
+    "GUI": 16
   },
   "mod_elements": [
     {
@@ -761,64 +761,6 @@
       "ids": {}
     },
     {
-      "name": "CyanDecraftingTable",
-      "type": "block",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "CyanDecraftingTableRecipe",
-      "type": "recipe",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "CyanDecraftingTableGUI",
-      "type": "gui",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 14
-      }
-    },
-    {
-      "name": "Decrafting",
-      "type": "procedure",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Uyyut",
-      "type": "procedure",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "ToxicCarp",
       "type": "mob",
       "sortid": 68,
@@ -878,6 +820,52 @@
       "ids": {
         "0": 3
       }
+    },
+    {
+      "name": "CyanDecfatingTable",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyanDecraftingTableGUI",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 16
+      }
+    },
+    {
+      "name": "Decraft",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -896,9 +884,9 @@
       "item.cyan.name": "Циан",
       "item.cyanshears.name": "Циановые ножницы",
       "item.cyanpickaxe.name": "Циановая кирка",
+      "tile.cyandecfatingtable.name": "Cyan Decfating Table",
       "tile.cyanore.name": "Циановая руда",
       "item.cyanmultitool.name": "Циановый мультитул",
-      "tile.cyandecraftingtable.name": "Cyan Decrafting Table",
       "item.cyanarmorhelmet.name": "Циановый шлем",
       "item.cyanarmorlegs.name": "Циановые поножи",
       "fluid.nolnol": "НолНол",
@@ -920,9 +908,9 @@
       "item.cyan.name": "Cyan",
       "item.cyanshears.name": "Cyan Shears",
       "item.cyanpickaxe.name": "Cyan Pickaxe",
+      "tile.cyandecfatingtable.name": "Cyan Decfating Table",
       "tile.cyanore.name": "Cyan Ore",
       "item.cyanmultitool.name": "Cyan Multitool",
-      "tile.cyandecraftingtable.name": "Cyan Decrafting Table",
       "item.cyanarmorhelmet.name": "Cyan Helmet",
       "item.cyanarmorlegs.name": "Cyan Leggings",
       "fluid.nolnol": "Nolnol",

@@ -24,7 +24,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.mcreator.testmod.procedure.ProcedureDecrafting;
+import net.mcreator.testmod.procedure.ProcedureDecraft;
 import net.mcreator.testmod.TestMod;
 import net.mcreator.testmod.ElementsTestMod;
 
@@ -36,10 +36,10 @@ import java.io.IOException;
 
 @ElementsTestMod.ModElement.Tag
 public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
-	public static int GUIID = 14;
+	public static int GUIID = 16;
 	public static HashMap guistate = new HashMap();
 	public GuiCyanDecraftingTableGUI(ElementsTestMod instance) {
-		super(instance, 65);
+		super(instance, 76);
 	}
 
 	@Override
@@ -70,55 +70,55 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 					GuiContainerMod.this.slotChanged(0, 0, 0);
 				}
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 116, 12) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 98, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 134, 12) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 116, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 152, 12) {
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 134, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 116, 30) {
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 98, 30) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 134, 30) {
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 116, 30) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 152, 30) {
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 134, 30) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 116, 48) {
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 98, 48) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 134, 48) {
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 116, 48) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 152, 48) {
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 134, 48) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -308,8 +308,6 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
 			zLevel = 100.0F;
-			this.mc.renderEngine.bindTexture(new ResourceLocation("testmod:textures/lumafly_lantern.png"));
-			this.drawTexturedModalRect(this.guiLeft + 52, this.guiTop + 2, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -329,6 +327,7 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
+			this.fontRenderer.drawString("Decrafting table", 7, 2, -12566464);
 		}
 
 		@Override
@@ -468,8 +467,11 @@ public class GuiCyanDecraftingTableGUI extends ElementsTestMod.ModElement {
 		if (slotID == 0 && changeType == 0) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureDecrafting.executeProcedure($_dependencies);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureDecraft.executeProcedure($_dependencies);
 			}
 		}
 	}

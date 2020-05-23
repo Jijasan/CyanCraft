@@ -15,7 +15,7 @@
           },
           "id": 0,
           "onSlotChanged": {
-            "name": "Decrafting"
+            "name": "Decraft"
           },
           "name": "Slot #0",
           "x": 300,
@@ -27,7 +27,7 @@
         "data": {
           "id": 1,
           "name": "Slot #1",
-          "x": 480,
+          "x": 444,
           "y": 96
         }
       },
@@ -36,7 +36,7 @@
         "data": {
           "id": 2,
           "name": "Slot #2",
-          "x": 516,
+          "x": 480,
           "y": 96
         }
       },
@@ -45,7 +45,7 @@
         "data": {
           "id": 3,
           "name": "Slot #3",
-          "x": 552,
+          "x": 516,
           "y": 96
         }
       },
@@ -54,7 +54,7 @@
         "data": {
           "id": 4,
           "name": "Slot #4",
-          "x": 480,
+          "x": 444,
           "y": 132
         }
       },
@@ -63,7 +63,7 @@
         "data": {
           "id": 5,
           "name": "Slot #5",
-          "x": 516,
+          "x": 480,
           "y": 132
         }
       },
@@ -72,7 +72,7 @@
         "data": {
           "id": 6,
           "name": "Slot #6",
-          "x": 552,
+          "x": 516,
           "y": 132
         }
       },
@@ -81,7 +81,7 @@
         "data": {
           "id": 7,
           "name": "Slot #7",
-          "x": 480,
+          "x": 444,
           "y": 168
         }
       },
@@ -90,7 +90,7 @@
         "data": {
           "id": 8,
           "name": "Slot #8",
-          "x": 516,
+          "x": 480,
           "y": 168
         }
       },
@@ -99,16 +99,20 @@
         "data": {
           "id": 9,
           "name": "Slot #9",
-          "x": 552,
+          "x": 516,
           "y": 168
         }
       },
       {
-        "type": "image",
+        "type": "label",
         "data": {
-          "image": "lumafly_lantern.png",
-          "name": "lumafly_lantern.png",
-          "x": 354,
+          "text": "Decrafting table",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Decrafting table",
+          "x": 264,
           "y": 78
         }
       }

@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Cyan Decrafting Table",
+    "name": "Cyan Decfating Table",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -69,17 +69,14 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "CyanDecraftingTableGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 9,
+    "inventorySize": 10,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "onRandomUpdateEvent": {
-      "name": "Decrafting"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
